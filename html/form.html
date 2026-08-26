@@ -4,6 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /*Main form*/
+        form{
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border: 1px  solid #999;
+            font-family: Arial, sans-serif;
+        }
+       /* fieldset*/
+       fieldset{
+        margin-bottom: 15px;
+        padding: 15px;
+        border: 1px solid #888;
+       }
+       /* legend */
+       legend{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0 8px;
+        color: #333;
+       }
+       /* fields*/
+       input[type="text"],
+       input[type="email"],
+       input[type="tel"],
+       select{
+        width: 250px;
+        padding: 8px 10px;
+        margin-bottom: 8px;
+        border: 1px solid #999;
+        border-radius: 4px;
+        font-size: 15px;
+        box-sizing: border-box;
+       }
+       /* input focus */
+       input:focus,
+       select:focus {
+        outline: none;
+        border-color: #555;
+       }
+       /* Submit Button */
+       input[type="submit"]
+       button{
+        padding: 9px 20px;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 15px;
+       }
+       /* Button hover */
+       input[type="submit"]:hover
+       button:hover {
+        background-color: #555;
+       }
+    </style>
 </head>
 <body>
     <fieldset>
